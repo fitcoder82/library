@@ -1,5 +1,5 @@
 class BooksController < ApplicationController
 	def index
-		@books = Book.limit(1)
+		@books = Book.all
 	end
 end
